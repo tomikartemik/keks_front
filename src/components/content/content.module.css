@@ -1,0 +1,81 @@
+.root {
+    height: 100%;
+    width: 100%;
+    background: #f4f0f0;
+    position: relative;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 12px 14px;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.product {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 16px;
+    z-index: 10;
+    border: 3px solid #05ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.photo {
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 150px;
+}
+
+.description {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 8px 8px 8px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: space-between;
+}
+
+.name {
+    color: #8650b6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    display: -moz-box;
+    -moz-line-clamp: 2;
+    -moz-box-orient: vertical;
+
+    display: box;
+    line-clamp: 2;
+    box-orient: vertical;
+
+    max-height: 3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.secondaryInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #9474b5;
+    font-size: 14px;
+}

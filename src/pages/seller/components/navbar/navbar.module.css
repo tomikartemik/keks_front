@@ -1,0 +1,28 @@
+.nav {
+    height: 40px;
+    width: 100%;
+    background: #050103;
+    display: flex;
+    padding: 0 1px;
+    gap: 4px;
+}
+
+.navButton {
+    width: 100%;
+    border: none;
+    background: inherit;
+    color: #ddd6d0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    border-radius: 8px;
+}
+
+.navButtonDisabled:hover {
+    background: #474747;
+}
+
+.navButtonActive {
+    border-left: 2px solid #bf8e54;
+    border-right: 2px solid #bf8e54;
+}

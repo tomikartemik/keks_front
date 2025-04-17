@@ -1,0 +1,7 @@
+.feed {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #8650b6;
+    font-size: 14px;
+}

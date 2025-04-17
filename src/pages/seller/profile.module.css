@@ -1,0 +1,15 @@
+.root {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+}

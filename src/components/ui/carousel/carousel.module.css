@@ -1,0 +1,31 @@
+.root {
+    padding: 0 20px;
+    background: #f4f0f0;
+}
+
+.carousel {
+    height: 40px;
+}
+
+.carouselButton {
+    height: 40px;
+    border: none;
+    background: inherit;
+    color: #8650b6;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+    border-radius: 8px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselButtonActive {
+    border-left: 2px solid #05ffff;
+    border-right: 2px solid #05ffff;
+}
+
+.carouselButtonDisabled:hover {
+    background: #474747;
+}
