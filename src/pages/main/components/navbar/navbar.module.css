@@ -1,7 +1,7 @@
 .nav {
     height: 40px;
     width: 100%;
-    background: #050103;
+    background: #5E2C3A;
     display: flex;
 }
 
@@ -9,7 +9,7 @@
     width: 100%;
     border: none;
     background: inherit;
-    color: #ddd6d0;
+    color: #5E2C3A;
     font-weight: 500;
     cursor: pointer;
     transition: 0.15s ease-in-out;
@@ -17,10 +17,10 @@
 }
 
 .navButtonDisabled:hover {
-    background: #474747;
+    background: #F5E6D3;
 }
 
 .navButtonActive {
-    border-left: 2px solid #bf8e54;
-    border-right: 2px solid #bf8e54;
+    border-left: 2px solid #B87333;
+    border-right: 2px solid #B87333;
 }

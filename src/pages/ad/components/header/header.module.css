@@ -10,7 +10,7 @@
 
 .backBtn {
     position: absolute;
-    color: white;
+    color: #F5E6D3;
     background: inherit;
     top: -32px;
     right: 8px;
@@ -25,7 +25,7 @@
 }
 
 .image {
-    border: 2px solid #C08F54;
+    border: 2px solid #F5E6D3;
     height: 150px;
     width: 100%;
     max-width: 150px;
@@ -42,7 +42,7 @@
 
 .title {
     font-weight: 500;
-    color: #ddd6d0;
+    color: #F5E6D3;
     font-size: 24px;
 }
 
@@ -54,5 +54,5 @@
 }
 
 .sellerName {
-    color: #ddd6d0;
+    color: #F5E6D3;
 }

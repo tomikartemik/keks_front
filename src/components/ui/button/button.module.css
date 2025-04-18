@@ -1,6 +1,6 @@
 .root {
-    background: #C08F54;
-    color: #ddd6d0;
+    background: #B87333;
+    color: #F5E6D3;
     width: 140px;
     height: 40px;
     border-radius: 12px;
@@ -12,5 +12,5 @@
 }
 
 .root:hover {
-    background: #7a6244;
+    background: #B87333;
 }

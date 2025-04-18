@@ -2,7 +2,7 @@
     height: 100%;
     max-height: 160px;
     width: 100%;
-    background: #1a1b1d;
+    background: #5E2C3A;
     position: relative;
 }
 
@@ -18,7 +18,7 @@
 
 .backBtn {
     position: absolute;
-    color: white;
+    color: #B87333;
     background: inherit;
     top: 12px;
     right: 16px;
@@ -29,7 +29,7 @@
 }
 
 .backBtn:hover {
-    color: #c6c6c6;
+    color: #B87333;
 }
 
 .avatar {
@@ -44,13 +44,13 @@
 
 .nickname {
     font-weight: 500;
-    color: #ddd6d0;
+    color: #F5E6D3;
     font-size: 24px;
 }
 
 .balance {
     font-weight: 500;
-    color: #ddd6d0;
+    color: #F5E6D3;
     font-size: 24px;
 }
 

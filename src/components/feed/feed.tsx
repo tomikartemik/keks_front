@@ -13,7 +13,7 @@ interface IProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLD
 export const Feed: FC<IProps> = ({rating, feedbacks, starHeight, starWidth, ...props}) => {
     return (
         <div {...props} className={clsx(styles.feed, props.className)}>
-            <p style={{color: '#8650b6'}}>
+            <p style={{color: '#FFF8E7'}}>
                 {rating}
             </p>
             <span>

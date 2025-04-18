@@ -4,7 +4,7 @@
     margin: 0 auto;
     height: 100%;
     overflow: hidden;
-    background: #050103;
+    background: #5E2C3A;
     padding: 48px 20px 24px;
 }
 
@@ -18,7 +18,7 @@
 
 .price {
     font-weight: 600;
-    color: #ddd6d0;
+    color: #F5E6D3;
     font-size: 24px;
 }
 
